@@ -1,30 +1,26 @@
-<h1 align="center">
-   Vusic | The music destination you want.
-</h1>
 
 
 
-# ``` Spectrum ```
-As a passionate web developer, I embarked on a journey to create a robust Ecommerce Application, and I'm thrilled to share the exciting details of this project. This MERN Application encompasses a wide range of functionalities, from enabling users to browse and search for products to managing orders and processing payments securely.
+# ``` MusicOn ```
+In my music app project, I've created a fantastic music experience for everyone. Think of it like a magical music world on your computer or phone. You can easily explore different parts of this world, like your favorite playlists, artists, and albums, thanks to the smooth navigation I've set up.
 
 ![gif](https://user-images.githubusercontent.com/53748350/266853986-451ad343-3c42-45e1-87ca-4feec5ef81b2.gif)
 
  
 
-   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Product Management: We built a comprehensive product management system that allows administrators to easily add, edit, and organize products. Users can browse products, view detailed descriptions, and check real-time stock status. `
+   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `React-redux: For managing the app's state and ensuring that all components play together harmoniously, you've employed react-redux. This library acts as the conductor, orchestrating data flow and updates across your app. It helps keep track of the user's selected songs, playlists, and preferences, providing a cohesive user experience.`
 
-  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `User Authentication: The app includes user authentication, enabling customers to create accounts, sign in, and access personalized dashboards. Administrators have access to an admin dashboard with role-based access control.`
+  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `React.js: At the heart of this project is React.js, a powerful JavaScript library for building user interfaces. With React, you're creating the foundation of your music app, allowing you to compose interactive and dynamic components.`
 
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Shopping Cart: Users can add products to their shopping carts, adjust quantities, and remove items as needed. This feature ensures a smooth and user-friendly shopping experience.`
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Secure Payment Processing: For payment processing, I integrated Braintree, a PayPal company. Braintree provides a secure and seamless solution for both credit card and PayPal payments, ensuring the safety of users' financial information.`
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `React-router: To provide seamless navigation within your music app, you've incorporated react-router. It acts as the guide, ensuring users can effortlessly switch between different sections, such as playlists, artists, and albums, just like moving between pages in a music catalog..`
 
-  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Advanced Search: I implemented advanced search features, allowing users to search for products based on categories and price ranges. This enhances the discoverability of products on the platform.`
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Material-ui/core: To enhance the visual appeal of your music app, you've chosen material-ui/core. This library offers a rich collection of pre-designed UI components and styles, like a set of finely tuned musical instruments ready to be played. It ensures your app looks polished and professional while maintaining a consistent design language.`
 
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Product Recommendations: Users receive product recommendations based on their browsing and purchase history, enhancing their shopping experience and encouraging repeat business.`
 
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `User Reviews and Ratings: The app allows users to leave reviews and ratings for products, providing valuable feedback to both administrators and fellow shoppers. `
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Context API: You've harnessed the power of the Context API to create a seamless and interconnected experience. Like the invisible threads of a musical composition, the Context API allows you to share data and settings efficiently across various components of your app. This ensures that users' preferences and settings are maintained consistently.`
 
-  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Order Management: Administrators have access to a comprehensive order management system, where they can view and manage customer orders, track shipments, and handle returns and refunds.`
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `SCSS: For fine-tuning the visual aesthetics of your music app, you've utilized SCSS. This dynamic stylesheet language is akin to composing a unique visual score, allowing you to customize the app's colors, fonts, and styles precisely according to your creative vision. It ensures your music app stands out with a distinct and captivating design.`
+
 
 
  <br>
@@ -32,75 +28,20 @@ As a passionate web developer, I embarked on a journey to create a robust Ecomme
 # LANGUAGES, FRAMEWORKS, LIBRARY AND DATABASE
 
 - ![#BE0DF2](https://via.placeholder.com/15/1589F0/000000?text=+) `REACT.js`
-- ![#1512F8](https://via.placeholder.com/15/1589F0/000000?text=+) `NODE.js`
-- ![#c2E010](https://via.placeholder.com/15/c5f015/000000?text=+) `NEXT.js`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `HTML5, CSS3 and Bootstrap4`
-- ![#5DF20D](https://via.placeholder.com/15/f03c15/000000?text=+) `Socket.io`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Braintree Gateway`
-
-### DataBase 
-```diff
-Mongo DB
-```
-
-<br>
-
-# ONLINE REACHABILITY:
+- ![#1512F8](https://via.placeholder.com/15/1589F0/000000?text=+) `Redux.js`
+- ![#c2E010](https://via.placeholder.com/15/c5f015/000000?text=+) `material-ui/core`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `material-ui/icons`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Context API`
+- ![#5DF20D](https://via.placeholder.com/15/f03c15/000000?text=+) `SCSS`
 
 
-TECHNICAL SIDES OF SPECTRUM
-```sh
-1. A FullStack [ MERN ] E-Shopping Application.
-2. Implemented Payment Gateway using Credit Card and PayPal.
-3. Integrated Braintree (A PayPal Company) for Payment Processing.
-4. Implemented Advance Searching/Filtering based on Categories.
-5. Implemented Advance Searching/Filtering based on Price Range.
-6. Implemented Standard Products Search System with Categories option/dropdown.
-7. Implemented Shopping Cart.
-8. Implemented Authentication based on JWT.
-9. Implemented Scalable React App with Proper Layouts and Routes.
-10.Implemented Admin and User Dashboard.
-11.Implemented Flexible Private and Admin Routing System.
-12.Advance CRUD with Products and Categories.
-13.Handled File Upload.
-14.Used LocalStorage (CRUD) to Minimize Requests to Backend.
-15.Stored Sold Products Record into the Database for Further Processing.
-16.User Profile and Update Ability.
-17.Implemented Order Management System by Admin.
-
-```
-
-
- <br>
- 
-# TEAM SPECTRUM
-| Name | Github Username | 
-| ------ | ------ |
-| Aman Kushwaha | [https://github.com/amankushwaha577/]  |
-| Aman Saxena | [https://github.com/amanS2206] |
-| Akarshit Srivastava | [https://github.com/akarshit/2001] |
 
 <br>
 
 
-License
-----
-@Copyright TEAM SPECTRUM  2021
 
  
 
-
-## TECHNOLOGY USED
-
-* ### [React.js](https://reactjs.org/)
-    * ###### [react-router](https://github.com/ReactTraining/react-router#readme)
-    * ###### [react-redux](https://react-redux.js.org/)
-    * ###### [material-ui/core](https://www.npmjs.com/package/@material-ui/core)
-    * ###### [material-ui/icons](https://www.npmjs.com/package/@material-ui/icons)
-    * ###### [context API](https://reactjs.org/docs/context.html)
-    * ###### [scss](https://sass-lang.com/)
-   
 
 ## Attribution
     
@@ -109,3 +50,15 @@ License
 [Music](https://ncs.io/music) by NCS
 
     Please make sure you fork the repository
+
+
+
+ <br>
+ 
+
+<br>
+
+
+License
+----
+@Copyright TEAM SPECTRUM  2021
