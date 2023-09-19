@@ -4,7 +4,7 @@
 # ``` MusicOn ```
 In my music app project, I've created a fantastic music experience for everyone. Think of it like a magical music world on your computer or phone. You can easily explore different parts of this world, like your favorite playlists, artists, and albums, thanks to the smooth navigation I've set up.
 
-![gif](https://user-images.githubusercontent.com/53748350/266853986-451ad343-3c42-45e1-87ca-4feec5ef81b2.gif)
+![gif](https://user-images.githubusercontent.com/53748350/269063011-f8ceaee5-f6ba-45b6-92fe-755305af2f27.gif)
 
  
 
