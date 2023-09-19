@@ -21,25 +21,22 @@ const Developer = () => {
                     <p>I am a passionate MERN Stack developer with a relentless drive for learning and problem-solving.</p>
                     <p>I'm a team player, a master of deadlines, and always ready to embrace the latest tech.</p>
                     <p>User experience is my top priority, backed by solid security practices.</p>
+                    <br></br>
                     <p>Experience : 2.1 + Years</p>
-                    <p>Technologies : React, Node, Express, Next, Vue, MongoDB, Pixi, Socket, Redux</p>
-                    <p>Technologies : JavaScript, TypeScript, Bootstrap, HTML, CSS, JSON</p>
-                    <p>Technologies : Tailwind CSS, SCSS, Material UI</p>
-                    <p>Technologies : Rest APIs, NPM, Interfaces, GIT, SVN</p>
+                    <p>React, JavaScript, TypeScript, Express, Next, Pixi, Socket, Redux</p>
+                    <p>Bootstrap, HTML, CSS, JSON, Tailwind CSS, SCSS, Material UI</p>
+                    <p>Rest APIs, NPM, Interfaces, GIT, SVN</p>
                     <div className="Card-btn">
-                        <IconButton target={"_blank"}  href={"https://www.facebook.com/vishal.kld"} title={"vishal.kld"}>
-                            <Facebook/>
-                        </IconButton>
-                        <IconButton target={"_blank"} href={"https://twitter.com/Vishal_kld"}  title={"Vishal_kld"}>
+                        <IconButton target={"_blank"} href={"https://twitter.com/amankushwaha57"}  title={"Vishal_kld"}>
                             <Twitter/>
                         </IconButton>
-                        <IconButton target={"_blank"} href={"https://www.linkedin.com/in/vishalsingh-/"}  title={"vishalsingh-"}>
+                        <IconButton target={"_blank"} href={"https://www.linkedin.com/in/amankushwaha57/"}  title={"vishalsingh-"}>
                             <LinkedIn/>
                         </IconButton>
-                        <IconButton target={"_blank"} href={"https://www.instagram.com/vishalsingh023/"}  title={"vishalsingh023"}>
+                        <IconButton target={"_blank"} href={"https://www.instagram.com/the_amankushwaha/"}  title={"vishalsingh023"}>
                             <Instagram/>
                         </IconButton>
-                        <IconButton target={"_blank"} href={"https://vishal.thetechnician.in/"}  title={"Web Portfolio"}>
+                        <IconButton target={"_blank"} href={"/"}  title={"Web Portfolio"}>
                             <Portrait/>
                         </IconButton>
                     </div>
