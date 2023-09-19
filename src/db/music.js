@@ -1,146 +1,146 @@
 let musicDB = [
     {
         id: 0,
-        name: "Shakedown",
-        author_name: "Clarx",
-        img: "shakedown.jpg",
+        name: "Night Changes",
+        author_name: "One Direction",
+        img: "Night Changes.jpg",
         lang: "ENGLISH",
         timesPlayed: 0,
         type: "electronic",
-        musicName: "Clarx - Shakedown [NCS Release].mp3",
+        musicName: "2 Night-Changes.mp3",
         attribution: {
-            song: "Clarx - Shakedown [NCS Release]",
-            musicBy: "NoCopyrightSounds",
-            download: "http://ncs.io/Shakedown",
-            stream: "http://youtu.be/qJT0mc3q6Lg"
+            song: "Night-Changes - One Direction [Youtube Release]",
+            musicBy: "Youtube",
+            download: "https://www.youtube.com/watch?v=syFZfO_wfMQ",
+            stream: "https://www.youtube.com/watch?v=syFZfO_wfMQ"
         }
     },
     {
         id: 1,
-        name: "Games Worldbeat",
-        author_name: "Bernardo R.",
-        img: "notAvailable.jpg",
+        name: "Senorita",
+        author_name: "Shawn-Mendes",
+        img: "senorita.jpg",
         lang: null,
         timesPlayed: 0,
         type:"instrumental",
-        musicName: "mixkit-games-worldbeat-466.mp3",
+        musicName: "3 Senorita-Shawn-Mendes.mp3",
         attribution: {
-            song: "Games Worldbeat",
-            musicBy: "mixkit",
+            song: "Senorita",
+            musicBy: "Youtube",
             download: null,
             stream: null
         }
     },
     {
         id: 2,
-        name: "OverMyHead",
-        author_name: " ROY KNOX",
-        img: "over-my-head-1602154826-mOiKzOJDe6.jpg",
+        name: "Everything At Once",
+        author_name: "Lenka",
+        img: "everthing.jpg",
         lang: "ENGLISH",
         type: "electronic",
         timesPlayed: 0,
-        musicName: "ROY KNOX -  Over My Head (Feat. Mike Robert) [NCS Release].mp3",
+        musicName: "4 Everything At Once - Lenka.mp3",
         attribution: {
-            song: "ROY KNOX - Over My Head (Feat. Mike Robert) [NCS Release]",
+            song: "Everything At Once - Lenka [Youtube Release]",
             musicBy: "NoCopyrightSounds",
-            download: "http://ncs.io/OverMyHead",
+            download: "https://www.youtube.com/results?search_query=everthing+at+once",
             stream: null
         }
     },
     {
         id: 3,
-        name: "Want You (feat. Sara Skinner)",
-        author_name: "Subtact, Sara Skinner",
-        img: "want-you-feat-sara-skinner-1586956276-s4lOrfrHQj.jpg",
+        name: "Levitating",
+        author_name: "Dua Lipa",
+        img: "levitating.jpg",
         lang: "ENGLISH",
         timesPlayed: 0,
         type: "electronic",
-        musicName: "Subtact - Want You (feat. Sara Skinner) [NCS Release].mp3",
+        musicName: "5 Levitating.mp3",
         attribution: {
-            song: "Subtact - Want You (feat. Sara Skinner) [NCS Release]",
-            musicBy: "NoCopyrightSounds",
-            download: "http://ncs.io/WantYou",
-            stream: "http://youtu.be/Pww31vN_1QY"
+            song: "Levitating - Dua Lipa",
+            musicBy: "Youtube",
+            download: "https://www.youtube.com/watch?v=TUVcZfQe-Kw",
+            stream: "https://www.youtube.com/watch?v=TUVcZfQe-Kw"
         }
     },
     {
         id: 4,
-        name: "Apocalypse",
-        author_name: "Midranger",
-        img: "apocalypse-1600776027-tsCmgK4gEU.jpg",
+        name: "Shape-of-You",
+        author_name: "Ed Sheeran",
+        img: "shape.jpg",
         lang: "ENGLISH",
         timesPlayed: 0,
         type: "electronic",
-        musicName: "Midranger - Apocalypse [NCS Release].mp3",
+        musicName: "6 Shape-of-You.mp3",
         attribution: {
-            song: "Midranger - Apocalypse [NCS Release]",
+            song: "Shape-of-You - Ed Sheeran",
             musicBy: "NoCopyrightSounds",
-            download: "http://ncs.io/Apocalypse",
-            stream: "http://youtu.be/Whw1sWDpAvE"
+            download: "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+            stream: "https://www.youtube.com/watch?v=JGwWNGJdvx8"
         }
     },
     {
         id: 5,
-        name: "Alive",
-        author_name: "Neoni, N3WPORT",
-        img: "alive.jpg",
+        name: "Despacito",
+        author_name: "Luis Fonsi",
+        img: "Despacito.png",
         lang: "ENGLISH",
         timesPlayed: 0,
         type: "electronic",
-        musicName: "N3WPORT - Alive (feat. Neoni) [NCS Release].mp3",
+        musicName: "1 Despacito.mp3",
         attribution: {
-            song: "N3WPORT - Alive (feat. Neoni) [NCS Release]",
-            musicBy: "NoCopyrightSounds",
-            download: "http://ncs.io/NAlive",
-            stream: "http://youtu.be/vJAcXd_UtWQ"
+            song: "Despacito - Luis Fonsi [Youtube Release]",
+            musicBy: "Youtube",
+            download: "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+            stream: "https://www.youtube.com/watch?v=kJQP7kiw5Fk"
         }
     },
     {
         id: 6,
-        name: "Impact Moderato",
-        author_name: "Kevin MacLeod",
-        img: "notAvailable.jpg",
+        name: "Ignite",
+        author_name: "Alan-Walker",
+        img: "ignite.jpg",
         lang: "ENGLISH",
         timesPlayed: 0,
         type:"instrumental",
-        musicName: "impact.mp3",
+        musicName: "7 Ignite---Alan-Walker.mp3",
         attribution: {
-            song: "Impact Moderato",
-            musicBy: "Kevin MacLeod",
+            song: "Ignite",
+            musicBy: "Alan-Walker",
             download: null,
             stream: null
         }
     },
     {
         id: 7,
-        name: "Impact Moderato 2",
-        author_name: "Kevin MacLeod",
-        img: "notAvailable.jpg",
+        name: "Cheap-Thrills",
+        author_name: "Sia",
+        img: "cheap.png",
         lang: "ENGLISH",
         timesPlayed: 0,
         type:"instrumental",
-        musicName: "impact2.mp3",
+        musicName: "8 Cheap-Thrills.mp3",
         attribution: {
-            song: "Impact Moderato",
-            musicBy: "Kevin MacLeod",
+            song: "Cheap-Thrills",
+            musicBy: "Sia",
             download: null,
             stream: null
         }
     },
     {
         id: 8,
-        name: "Ignite",
-        author_name: "Tom wilson, Heuse",
-        img: "ignite-1600419626-nHn4WXY79q.jpg",
+        name: "Dusk-Till-Dawn",
+        author_name: "Zayn",
+        img: "dusk.jpg",
         lang: "ENGLISH",
         timesPlayed: 0,
         type: "electronic",
-        musicName: "Heuse & Tom Wilson - Ignite [NCS Release].mp3",
+        musicName: "9 Dusk-Till-Dawn.mp3",
         attribution: {
-            song: "Heuse & Tom Wilson - Ignite [NCS Release]",
-            musicBy: "NoCopyrightSounds",
-            download: "http://ncs.io/Ignite",
-            stream: "http://youtu.be/zbqgv0mMfwk"
+            song: "Dusk-Till-Dawn",
+            musicBy: "Zayn",
+            download: null,
+            stream: null
         }
     }
 ];
