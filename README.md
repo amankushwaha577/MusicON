@@ -61,4 +61,4 @@ In my music app project, I've created a fantastic music experience for everyone.
 
 License
 ----
-@Copyright TEAM SPECTRUM  2021
+@Copyright MUSICON  2022
