@@ -1,5 +1,5 @@
 .Developer {
-  background-color: whitesmoke;
+  background-color: #f0f0f0; /* Light background */
 
   .Developer-head {
     text-transform: uppercase;
@@ -8,105 +8,100 @@
     font-size: 1.5rem;
     padding: 10px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
-    span {
-      display: flex;
-      align-items: center;
-    }
   }
 
   .Developer-profile {
     display: flex;
-    flex-flow: row wrap;
-    background-color: #bbe1fa;
-    padding: 5px;
+    flex-wrap: wrap;
+    background-color: #dbe9f4; /* Light blue background */
+    padding: 10px;
+    gap: 20px;
+
     .Developer-profileCard {
-      background-color: rgba(255, 255, 255, 0.75);
+      background-color: #fff;
       text-align: center;
-      flex: 1 1 200px;
+      flex: 1 1 300px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+
       img {
-        border-radius: 50%;
-        border: 1px solid #000;
-        padding: 2px;
         width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 3px solid #1e56a0; /* Dark blue border */
+        object-fit: cover;
       }
+
       .Card-details {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        background-color: #1e56a0;
-        h3, p {
-          padding: 10px;
-          text-transform: uppercase;
-        }
+        padding: 20px;
+        background-color: #1e56a0; /* Dark blue background */
+        border-radius: 10px;
+        color: #fff;
+
         h3 {
-          color: white;
-          font-size: 1.3rem;
+          font-size: 1.5rem;
+          margin-bottom: 10px;
         }
-        p{
-          color: gainsboro;
+
+        p {
+          color: #f0f0f0; /* Light gray */
+          margin-bottom: 8px;
         }
       }
     }
 
     .Developer-profileDetails {
-      flex-grow: 1;
+      flex: 1;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      gap: 20px;
+
       p {
-        color: black;
+        color: #333;
         padding: 10px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
+        line-height: 1.6;
       }
+
       .Card-btn {
-        background-color: #0267C1;
-        background-color: rgba(255, 255, 255, 0.75);
-        background-color: #a2d5f2;
-        padding: 10px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        gap: 10px;
 
         a {
-          padding: 15px;
-          color: white;
-          text-transform: lowercase;
-        }
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          color: #fff;
+          transition: transform 0.3s ease, opacity 0.3s ease;
+          text-decoration: none;
 
-        a:hover {
-          opacity: 0.8;
-        }
+          &:hover {
+            transform: scale(1.2);
+            opacity: 0.8;
+          }
 
-        a:nth-child(1) {
-          background: #3B5998;
-        }
+          &.facebook {
+            background-color: #3b5998; /* Facebook blue */
+          }
 
-        a:nth-child(2) {
-          background: #55ACEE;
-        }
+          &.twitter {
+            background-color: #55acee; /* Twitter blue */
+          }
 
-        a:nth-child(3) {
-          background: #125688;
-        }
+          &.instagram {
+            background-color: #125688; /* Instagram blue */
+          }
 
-        a:nth-child(4) {
-          background: #007bb5;
-        }
-
-        a:nth-child(5) {
-          background: #e74e6d;
+          &.linkedin {
+            background-color: #007bb5; /* LinkedIn blue */
+          }
         }
       }
-
     }
-
   }
-
 }
