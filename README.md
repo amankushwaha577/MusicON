@@ -6,7 +6,7 @@ In my music app project, I've created a fantastic music experience for everyone.
 
 ![gif](https://user-images.githubusercontent.com/53748350/269063011-f8ceaee5-f6ba-45b6-92fe-755305af2f27.gif)
 
- 
+  
 
    - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `React-redux: For managing the app's state and ensuring that all components play together harmoniously, you've employed react-redux. This library acts as the conductor, orchestrating data flow and updates across your app. It helps keep track of the user's selected songs, playlists, and preferences, providing a cohesive user experience.`
 
@@ -61,4 +61,4 @@ In my music app project, I've created a fantastic music experience for everyone.
 
 License
 ----
-@Copyright TEAM SPECTRUM  2021
+@Copyright MUSICON  2022
