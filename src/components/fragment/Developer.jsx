@@ -14,7 +14,7 @@ const Developer = () => {
           <div className={'Card-details'}>
             <h3>AMAN KUSHWAHA</h3>
             <p>MERN STACK DEVELOPER</p>
-            <p>amankushwaha57@gmail.com</p>
+            <p>amankushwaha93@gmail.com</p>
           </div>
         </div>
         <div className="Developer-profileDetails">
