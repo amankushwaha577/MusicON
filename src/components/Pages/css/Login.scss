@@ -1,63 +1,85 @@
 #main {
-  font-family: Consolas, sans-serif;
-  background: #ae2aae;
+  font-family: "Consolas", sans-serif;
+  background: linear-gradient(to right, #642b73, #c6426e);
   height: 100vh;
   text-align: center;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   .nav-item {
-    height: 10vh;
-    display: flex;
-    font-size: 1.3rem;
+    margin-bottom: 20px;
     .navbar-brand {
       font-family: "Pacifico", cursive;
       color: #f8eeee;
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
   }
+
   .main-row {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 90vh;
-    .main-row-img{
-      flex-basis: 50%;
-      flex-grow: 1;
-      .head-phone-img {
-        width: 60%;
-      }
+    height: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
     }
-    .main-row-text{
+
+    .main-row-img {
+      flex: 1;
       display: flex;
-      flex-flow: column wrap;
       justify-content: center;
       align-items: center;
-      flex-basis: 50%;
-      flex-grow: 1;
+
+      .head-phone-img {
+        max-width: 80%;
+        height: auto;
+      }
+    }
+
+    .main-row-text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #f8eeee;
+      text-align: center;
+
       h1 {
         font-family: "Bungee", cursive;
         font-size: 3rem;
+        margin-bottom: 20px;
       }
+
       p {
-        color: #f8eeee;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        margin-bottom: 30px;
       }
-      .btn{
-        font-family: Consolas, sans-serif;
+
+      .btn {
+        font-family: "Consolas", sans-serif;
         letter-spacing: 2px;
         border: none;
-        background-color: #282c34;
-        color: #fff;
-        font-size: 1.1rem;
+        background-color: #f8eeee;
+        color: #642b73;
+        font-size: 1.2rem;
         text-transform: uppercase;
-        margin: 10px 0;
-        padding: 15px 20px;
+        padding: 15px 30px;
         border-radius: 5px;
-      }
-      .btn:hover{
-        opacity: 0.9;
-        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: #c6426e;
+          color: #f8eeee;
+          cursor: pointer;
+        }
       }
     }
   }
