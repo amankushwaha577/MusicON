@@ -1,5 +1,5 @@
 
-
+ 
 
 # ``` MusicOn ```
 In my music app project, I've created a fantastic music experience for everyone. Think of it like a magical music world on your computer or phone. You can easily explore different parts of this world, like your favorite playlists, artists, and albums, thanks to the smooth navigation I've set up.
